@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactUs = ({ hospitalInfo }) => {
   return (
-    <section id="contact" className="py-16 bg-blue-800 text-white">
+    <section id="contact" className="py-16 bg-emerald-700 text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">
           Get In Touch
@@ -57,7 +57,7 @@ const ContactUs = ({ hospitalInfo }) => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full p-3 rounded-lg bg-blue-700 border border-blue-600 text-white placeholder-blue-200 focus:ring-2 focus:ring-blue-300 focus:outline-none"
+                  className="w-full p-3 rounded-lg bg-emerald-700 border border-white text-white placeholder-blue-200 focus:ring-2 focus:ring-emerald-300 focus:outline-none"
                   placeholder="Your Name"
                 />
               </div>
@@ -67,7 +67,7 @@ const ContactUs = ({ hospitalInfo }) => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full p-3 rounded-lg bg-blue-700 border border-blue-600 text-white placeholder-blue-200 focus:ring-2 focus:ring-blue-300 focus:outline-none"
+                   className="w-full p-3 rounded-lg bg-emerald-700 border border-white text-white placeholder-blue-200 focus:ring-2 focus:ring-emerald-300 focus:outline-none"
                   placeholder="Your Email"
                 />
               </div>
@@ -77,13 +77,13 @@ const ContactUs = ({ hospitalInfo }) => {
                   id="message"
                   name="message"
                   rows="5"
-                  className="w-full p-3 rounded-lg bg-blue-700 border border-blue-600 text-white placeholder-blue-200 focus:ring-2 focus:ring-blue-300 focus:outline-none"
+                  className="w-full p-3 rounded-lg bg-emerald-700 border border-white text-white placeholder-blue-200 focus:ring-2 focus:ring-emerald-300 focus:outline-none"
                   placeholder="Your Message"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition duration-300 transform hover:scale-105"
+                className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 rounded-lg transition duration-300 transform hover:scale-105"
               >
                 Send Message
               </button>

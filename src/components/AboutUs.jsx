@@ -8,7 +8,7 @@ const AboutUs = ({ overview }) => {
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/placeholder-reception.jpg" // Add a placeholder image in public/
+            src="https://maps.app.goo.gl/BZ1sbJU24pDaRdZr6" 
             alt="Hospital reception area"
             className="rounded-lg shadow-xl w-full max-w-md md:max-w-none transform hover:scale-105 transition duration-300"
           />

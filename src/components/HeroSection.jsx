@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = ({ tagline, callToAction }) => {
   return (
-    <section id="home" className="relative bg-blue-700 text-white h-[600px] flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative bg-emerald-700 text-white h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image/Video - Replace with actual images or video */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-50"
@@ -27,7 +27,7 @@ const HeroSection = ({ tagline, callToAction }) => {
         </p>
         <a
           href="#contact"
-          className="bg-red-600 hover:bg-red-700 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+          className="bg-emerald-500 hover:bg-emerald-600 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
         >
           {callToAction}
         </a>

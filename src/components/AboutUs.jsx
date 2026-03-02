@@ -1,6 +1,6 @@
 // src/components/AboutUs.jsx
 import React from 'react';
-import Mayfield from '../assets/Mayfield.jpeg'; 
+import Mayfield from '../assets/mayfield.jpeg'; 
 
 const AboutUs = ({ overview }) => {
   return (

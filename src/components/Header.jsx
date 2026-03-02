@@ -9,7 +9,7 @@ const Header = ({ hospitalName, phone }) => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-700">
+        <div className="text-2xl font-bold text-emerald-700">
           {hospitalName}
         </div>
 

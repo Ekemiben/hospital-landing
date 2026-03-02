@@ -1,5 +1,6 @@
 // src/components/AboutUs.jsx
 import React from 'react';
+import Mayfield from '../assets/Mayfield.jpeg'; // Add a placeholder logo in src/assets/
 
 const AboutUs = ({ overview }) => {
   return (
@@ -8,7 +9,7 @@ const AboutUs = ({ overview }) => {
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="https://maps.app.goo.gl/BZ1sbJU24pDaRdZr6" 
+            src={Mayfield}
             alt="Hospital reception area"
             className="rounded-lg shadow-xl w-full max-w-md md:max-w-none transform hover:scale-105 transition duration-300"
           />

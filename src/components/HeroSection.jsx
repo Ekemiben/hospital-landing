@@ -1,5 +1,6 @@
 // src/components/HeroSection.jsx
 import React from 'react';
+import Mayfield from '../assets/Mayfield.jpeg'; // Add a placeholder logo in src/assets/
 
 const HeroSection = ({ tagline, callToAction }) => {
   return (

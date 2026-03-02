@@ -1,11 +1,11 @@
-// src/components/HeroSection.jsx
+
 import React from 'react';
 
 
 const HeroSection = ({ tagline, callToAction }) => {
   return (
     <section id="home" className="relative bg-emerald-700 text-white h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Background Image/Video - Replace with actual images or video */}
+     
       <div
         className="absolute inset-0 bg-cover bg-center opacity-50"
         style={{ backgroundImage: "url('/placeholder-hospital-exterior.jpg')" }} // Add a placeholder image in public/

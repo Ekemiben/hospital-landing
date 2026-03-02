@@ -1,6 +1,6 @@
 // src/components/AboutUs.jsx
 import React from 'react';
-import Mayfield from '../assets/Mayfield.jpeg'; // Add a placeholder logo in src/assets/
+import Mayfield from '../assets/Mayfield.jpeg'; 
 
 const AboutUs = ({ overview }) => {
   return (
